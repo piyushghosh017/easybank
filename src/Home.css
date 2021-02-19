@@ -1,0 +1,107 @@
+.home{
+    display: flex;
+    background-color: rgb(244, 244, 247);
+    padding-top: 25px;
+}
+
+.btn_h{
+    margin-top: 40px;
+    padding: 10px 10px;
+    padding-left: 10px;
+    background-color: #4AFFA6;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5rem;
+    opacity: 1;
+    transform: scale(1);
+    transition: all .2s;
+}
+
+.btn:hover{
+    color: white;
+    opacity: .8;
+    transform: scale(1.1);
+}
+
+.wel_text{
+    padding-top: 100px;
+    padding-left: 40px;
+    
+}
+
+.wel_subtext{
+    padding-top: 20px;
+    color:rgb(187, 187, 187);
+}
+.wel_img{
+    
+    background-image: url(./img/bg-intro-desktop.svg);
+    position: relative;
+    left: auto;
+
+}
+.wel_img > img{
+    width: 100%;
+    height: 100vh;
+    
+
+}
+
+/* about section -------------------*/
+
+.about{
+    padding-top: 80px;
+    padding-left: 60px;
+    
+}
+
+.about_text h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+.about_text  p{
+    color: rgb(182, 181, 181);
+
+}
+
+.about_items{
+    padding-top: 80px;
+    display: flex;
+    
+    
+}
+
+.item_one{
+    margin-right: 40px;
+}
+
+.item_two{
+    margin-right: 40px;
+}
+
+
+.item_three{
+    margin-right: 80px;
+}
+
+
+.about_items img{
+    padding-bottom: 15px;
+}
+
+.about_items h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.about_items p{
+    padding-top: 5px;
+    color: rgb(168, 168, 168);
+    padding-bottom: 40px;
+}
+
+.item_one .btn{
+    padding-bottom: 10px;
+}
